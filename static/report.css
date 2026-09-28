@@ -1,0 +1,162 @@
+body {
+    background: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    width: min(1600px, calc(100% - 32px));
+    margin: 0 auto;
+    padding: 24px 0 48px;
+}
+
+h1, h2, h3 {
+    color: #ff7f00;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+.description {
+    color: #cccccc;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 28px;
+    color: #cccccc;
+    font-size: 0.9em;
+    margin: 16px 0 22px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.stat {
+    background: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.stat-label {
+    display: block;
+    color: #aaa;
+    font-size: 0.85em;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.15em;
+}
+
+.table-tools {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 18px 0 10px;
+}
+
+#table-filter {
+    background: #1e1e1e;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 9px 12px;
+    min-width: min(400px, 100%);
+}
+
+#row-count {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #333;
+    color: #ff7f00;
+    position: sticky;
+    top: 0;
+}
+
+tr:nth-child(even) {
+    background: #1e1e1e;
+}
+
+tr:hover {
+    background: #2c2c2c;
+}
+
+a {
+    color: #ff7f00;
+}
+
+.link-group {
+    line-height: 1.7;
+}
+
+section {
+    margin: 28px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #1e1e1e;
+    border: 1px solid #333;
+    margin: 6px 0;
+    padding: 10px 12px;
+}
+
+.index-count {
+    color: #888;
+    float: right;
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: min(100% - 20px, 1600px);
+        padding-top: 14px;
+    }
+
+    .table-tools {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    #table-filter {
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

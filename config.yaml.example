@@ -1,0 +1,20 @@
+# Copy this file to config.yaml and adjust the values for your system.
+
+database:
+  host: localhost
+  port: 5432
+  database: musicbrainz_db
+  user: musicbrainz
+  password: ""
+
+collections:
+  file: ./artist_collections.json
+
+reports:
+  directory: ./reports
+
+output:
+  directory: ./output
+
+site:
+  title: MusicBrainz Reports
