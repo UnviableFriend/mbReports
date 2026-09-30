@@ -1,0 +1,107 @@
+{
+    "generated": "2026-09-30T04:44:01.160450+00:00",
+    "source": "MusicBrainz Collections API",
+    "collections": {
+        "KPopGroups": {
+            "collection_ids": [
+                "b1ed9262-1a52-41e5-8f58-b3e14da9e429"
+            ],
+            "count": 1,
+            "artists": {
+                "b7442f18-d9be-4185-8b51-482510046156": {
+                    "id": "b7442f18-d9be-4185-8b51-482510046156",
+                    "begin-area": {
+                        "sort-name": "Seoul",
+                        "disambiguation": "",
+                        "iso-3166-2-codes": [
+                            "KR-11"
+                        ],
+                        "id": "aa03e165-4c73-4959-91c0-a99f9fa8ecab",
+                        "type-id": null,
+                        "name": "Seoul",
+                        "type": null
+                    },
+                    "gender": null,
+                    "gender-id": null,
+                    "area": {
+                        "disambiguation": "",
+                        "iso-3166-1-codes": [
+                            "KR"
+                        ],
+                        "sort-name": "South Korea",
+                        "type": null,
+                        "name": "South Korea",
+                        "type-id": null,
+                        "id": "b9f7d640-46e8-313e-b158-ded6d18593b3"
+                    },
+                    "name": "Girls’ Generation",
+                    "sort-name": "Girls’ Generation",
+                    "disambiguation": "",
+                    "life-span": {
+                        "end": null,
+                        "ended": false,
+                        "begin": "2007-08-05"
+                    },
+                    "isnis": [
+                        "000000012072205X"
+                    ],
+                    "country": "KR",
+                    "end-area": null,
+                    "type-id": "e431f5f6-b5d2-343d-8b36-72607fffb74b",
+                    "ipis": [],
+                    "type": "Group"
+                }
+            }
+        },
+        "KPersons": {
+            "collection_ids": [
+                "dec8e348-6420-44ae-a979-c35eaacf80a9"
+            ],
+            "count": 1,
+            "artists": {
+                "2b786fb3-a116-4163-9b65-cf56f03c8a7f": {
+                    "begin-area": {
+                        "type-id": null,
+                        "sort-name": "Jeonju",
+                        "name": "Jeonju",
+                        "disambiguation": "",
+                        "type": null,
+                        "id": "43a1768a-d4bb-4434-987e-b1587e49735b"
+                    },
+                    "gender-id": "93452b5a-a947-30c8-934f-6a4056b151c2",
+                    "id": "2b786fb3-a116-4163-9b65-cf56f03c8a7f",
+                    "type": "Person",
+                    "name": "TAEYEON",
+                    "ipis": [
+                        "00814817140"
+                    ],
+                    "disambiguation": "",
+                    "life-span": {
+                        "end": null,
+                        "begin": "1989-03-09",
+                        "ended": false
+                    },
+                    "isnis": [
+                        "0000000460848396"
+                    ],
+                    "end-area": null,
+                    "gender": "Female",
+                    "area": {
+                        "name": "South Korea",
+                        "sort-name": "South Korea",
+                        "type-id": null,
+                        "type": null,
+                        "disambiguation": "",
+                        "id": "b9f7d640-46e8-313e-b158-ded6d18593b3",
+                        "iso-3166-1-codes": [
+                            "KR"
+                        ]
+                    },
+                    "sort-name": "TAEYEON",
+                    "type-id": "b6e035f4-3ce9-331c-97df-83397230b0df",
+                    "country": "KR"
+                }
+            }
+        }
+    }
+}
