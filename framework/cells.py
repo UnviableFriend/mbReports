@@ -12,7 +12,6 @@ class Link:
 class MBID:
     value: str
     entity_type: str = "artist"
-    text: str | None = None
 
 
 @dataclass
@@ -25,5 +24,5 @@ def link(text, url, new_tab=True):
     return Link(text, url, new_tab)
 
 
-def mbid(value, entity_type="artist", text=None):
-    return MBID(str(value), entity_type, text)
+def mbid(value, entity_type="artist"):
+    return MBID(str(value), entity_type)
